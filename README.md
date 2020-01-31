@@ -2,6 +2,8 @@
 
 Plugin for the `piral-cli`. Adds a command to run a local feed service.
 
+Extends the Piral CLI commands and options to run a local feed service.
+
 ## Installation
 
 Install the plugin either locally or globally.
@@ -9,10 +11,12 @@ Install the plugin either locally or globally.
 We recommend the local installation:
 
 ```sh
-npm i piral-cli-local-feed
+npm i piral-cli-local-feed --save-dev
 ```
 
-## Running Standalone
+## Usage
+
+### Running Standalone
 
 Running it standalone can be done using the `piral` command:
 
@@ -29,7 +33,7 @@ Regarding the available options we currently support two flags:
 
 The API key is the one being used when uploading a pilet using the `piral-cli`. Multiple keys could be given when using comma as separators.
 
-## During Debug
+### During Debug
 
 Running it during a debug session of Piral is also possible.
 
@@ -38,3 +42,7 @@ piral debug <regular options> --feed ... --feed-port ... --feed-api-key ...
 ```
 
 This will run the local feed service using the same options as above, just on-the-side and prefixed with `feed`.
+
+## License
+
+This plugin is released using the MIT license. For more information see the [LICENSE file](LICENSE).
