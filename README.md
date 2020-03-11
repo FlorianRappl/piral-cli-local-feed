@@ -1,6 +1,6 @@
 # piral-cli-local-feed
 
-[![Build Status](https://florianrappl.visualstudio.com/piral-cli-local-feed/_apis/build/status/FlorianRappl.piral-cli-local-feed?branchName=master)](https://florianrappl.visualstudio.com/piral-cli-local-feed/_build/latest?definitionId=13&branchName=master)
+![Azure Build Status](https://dev.azure.com/FlorianRappl/piral-cli-plugins/_apis/build/status/FlorianRappl.piral-cli-local-feed?branchName=master) ![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 Plugin for the `piral-cli`. Adds a command to run a local feed service.
 
