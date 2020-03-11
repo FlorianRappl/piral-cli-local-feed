@@ -5,7 +5,7 @@ function apiKeys(arg: string) {
   return (arg && arg.split(',')) || undefined;
 }
 
-const plugin: CliPlugin = (cli) => {
+const plugin: CliPlugin = cli => {
   cli.withCommand({
     name: 'local-feed-piral',
     alias: ['local-feed'],
@@ -33,6 +33,19 @@ const plugin: CliPlugin = (cli) => {
       });
     },
   });
+
+  cli.withFlags('debug-piral', flags =>
+    flags
+      .boolean('feed')
+      .describe('feed', 'Activates the local feed.')
+      .default('feed', false)
+      .number('feed-port')
+      .describe('feed-port', 'Determines the port of the feed.')
+      .default('feed-port', 9000)
+      .string('feed-api-key')
+      .describe('feed-api-key', 'Sets the used API key(s).')
+      .default('feed-api-key', ''),
+  );
 
   cli.beforeCommand('debug-piral', args => {
     if (args.feed) {

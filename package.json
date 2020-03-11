@@ -1,6 +1,6 @@
 {
   "name": "piral-cli-local-feed",
-  "version": "0.1.1",
+  "version": "0.3.1",
   "description": "Extends the Piral CLI commands and options to run a local feed service.",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
