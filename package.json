@@ -26,10 +26,11 @@
   },
   "homepage": "https://github.com/FlorianRappl/piral-cli-local-feed#readme",
   "devDependencies": {
-    "@types/yargs": "^13.0.2",
+    "@types/node": "^13.9.0",
+    "@types/yargs": "^15.0.0",
     "piral-cli": "latest"
   },
   "dependencies": {
-    "sample-pilet-service": "^1.2.1"
+    "sample-pilet-service": "^1.2.0"
   }
 }
