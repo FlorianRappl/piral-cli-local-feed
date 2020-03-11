@@ -1,6 +1,6 @@
 {
   "name": "piral-cli-local-feed",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Extends the Piral CLI commands and options to run a local feed service.",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -27,9 +27,9 @@
   "homepage": "https://github.com/FlorianRappl/piral-cli-local-feed#readme",
   "devDependencies": {
     "@types/yargs": "^13.0.2",
-    "piral-cli": "next"
+    "piral-cli": "latest"
   },
   "dependencies": {
-    "sample-pilet-service": "^1.1.0"
+    "sample-pilet-service": "^1.2.1"
   }
 }

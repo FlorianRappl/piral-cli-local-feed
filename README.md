@@ -1,5 +1,7 @@
 # piral-cli-local-feed
 
+[![Build Status](https://florianrappl.visualstudio.com/piral-cli-local-feed/_apis/build/status/FlorianRappl.piral-cli-local-feed?branchName=master)](https://florianrappl.visualstudio.com/piral-cli-local-feed/_build/latest?definitionId=13&branchName=master)
+
 Plugin for the `piral-cli`. Adds a command to run a local feed service.
 
 ## Installation
