@@ -25,11 +25,10 @@ const plugin: CliPlugin = cli => {
     },
     run(args) {
       return new Promise(resolve => {
-        const server = runApp({
+        runApp({
           port: args.port as number,
           apiKeys: apiKeys(args.apiKey as string),
-        });
-        server.on('close', resolve);
+        }).then(server => server.on('close', resolve))
       });
     },
   });

@@ -28,9 +28,9 @@
   "devDependencies": {
     "@types/node": "^13.9.0",
     "@types/yargs": "^15.0.0",
-    "piral-cli": "latest"
+    "piral-cli": "^1.5.3"
   },
   "dependencies": {
-    "sample-pilet-service": "^1.2.0"
+    "sample-pilet-service": "^1.8.3"
   }
 }
